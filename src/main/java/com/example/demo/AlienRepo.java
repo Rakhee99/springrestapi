@@ -5,7 +5,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import com.example.demo.model.Alien;
 
-@RepositoryRestResource(collectionsResourceRel="aliens", path="aliens")
+@RepositoryRestResource(collectionResourceRel="aliens", path="aliens")
 public interface AlienRepo extends JpaRepository<Alien, Integer> 
 {
 	
